@@ -42,3 +42,23 @@ header ul>li {
 	display: flex;
 	align-items: center;
 }
+
+.life4Cuts {
+	display: flex;
+	width: 20em;
+	height: 30em;
+	align-content: center;
+}
+
+.life4Cuts:hover {
+	cursor: pointer;
+}
+
+div {
+	text-align: center;
+}
+
+div img {
+	display: block;
+	margin: 0 auto;
+}

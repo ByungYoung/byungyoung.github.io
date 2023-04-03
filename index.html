@@ -16,28 +16,32 @@
         rel="stylesheet" type="text/css" />
     <!-- SimpleLightbox plugin CSS-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="/css/main.css">
-
-    <script src="/js/include.js"></script>
+    <link rel="stylesheet" href="css/main.css">
     <title>Beongyoung Web</title>
 </head>
 
-<body>
+<header>
     <div class="page">
         <header include-html="html/header.html"></header>
-        <article include-html="html/article/Life4Cuts.html"></article>
-        <footer include-html="html/footer.html"></footer>
     </div>
+</header>
+<hr style="border: solid 4px aqua; align-items: center; margin-bottom:1.5em;">
+<article>
+    <div class="life4Cuts" onclick="location.href='html/article/life4Cuts.html'">
+        <img src="assets/Img/LIfe4Cuts.png" alt="no image" style="width:10em; height:30em">
+    </div>
+</article>
 
+<footer include-html="html/footer.html"></footer>
 
-</body>
-
+<!-- Core JS inner js-->
+<script src="js/main.js"></script>
+<script src="js/include.js"></script>
 <!-- Bootstrap core JS-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 <!-- SimpleLightbox plugin JS-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
 <!-- Core theme JS-->
-<!-- <script src="js/main.js"></script> -->
 <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 <script>includeHTML();</script>
 
