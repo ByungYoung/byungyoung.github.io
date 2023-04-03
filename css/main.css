@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 ul {
 	list-style: none;
 }
@@ -43,19 +44,28 @@ header ul>li {
 	align-items: center;
 }
 
-.tltle:hover{
+.tltle:hover {
 	cursor: pointer;
 }
 
-.life4Cuts {
+.card {
+	position: relative;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	border-radius: 2em; /* 2em rounded corners */
+  }
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+	cursor: pointer;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+#Life4Cuts {
 	display: flex;
 	width: 20em;
 	height: 30em;
 	align-content: center;
-}
-
-.life4Cuts:hover {
-	cursor: pointer;
 }
 
 div {
