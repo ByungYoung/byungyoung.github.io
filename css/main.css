@@ -43,6 +43,10 @@ header ul>li {
 	align-items: center;
 }
 
+.tltle:hover{
+	cursor: pointer;
+}
+
 .life4Cuts {
 	display: flex;
 	width: 20em;
