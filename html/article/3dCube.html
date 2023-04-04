@@ -1,0 +1,20 @@
+<head>
+    <link rel="stylesheet" href="../../css/3dCube.css">
+</head>
+
+<div class="container">
+    <div class="cube">
+        <img src="../../assets/Img/3dCube/facebook.png" alt="페이스북 아이콘 이미지">
+        <img src="../../assets/Img/3dCube/twitter.png" alt="트위터 아이콘 이미지">
+        <img src="../../assets/Img/3dCube/youtube.png" alt="유튜브 아이콘 이미지">
+        <img src="../../assets/Img/3dCube/instagram.png" alt="인스타그램 아이콘 이미지">
+    </div>
+</div>
+
+<script>
+    let deg = 0;
+    setInterval(() => {
+        deg = deg - 90;
+        document.querySelector(".cube").style.transform = 'rotateX(' + deg + 'deg)';
+    }, 1000);
+</script>
